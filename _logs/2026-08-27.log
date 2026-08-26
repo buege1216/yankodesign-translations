@@ -1,0 +1,18 @@
+﻿===== 2026-08-27 07:10:01 開始執行 =====
+今天處理完成，共新增 3 篇文章，manifest 已更新：
+
+1. **Nevi：為一本正經的桌燈注入一點頑皮**（Lighting / Product Design，設計師 Andrei Ananenka）
+   `_posts/2026-08-26-nevi-brings-a-little-playfulness-to-the-serious-desk-lamp.md`
+   有取得首圖真實網址，內文其餘圖片皆為 lazyload 佔位符已略過。
+
+2. **泥土、竹子，與塞內加爾鄉間的一個大點子**（Architecture，設計師 Afroditi Ioannidou、Vladimir Gligorovski）
+   `_posts/2026-08-26-mud-bamboo-and-a-big-idea-for-rural-senegal.md`
+   同樣只取得首圖，其他圖片為佔位符已略過。
+
+3. **四名學生設計了一台內建堆高機的貨運三輪車**（Automotive，設計師 Irene Ponteduro、Edoardo Govoni、Filippo Murotti、Matteo Marinaro）
+   `_posts/2026-08-26-4-students-designed-cargo-bike-with-built-in-forklift.md`
+   同樣只取得首圖，其餘圖片為佔位符已略過。
+
+跳過的文章：已處理過的「The Lamp That Gives Material Memory a Home」，以及兩篇含 Deals 分類的文章（日本廚房小物、Boya Notra Neo 筆記機）。git commit/push 依慣例交給外部排程腳本處理。
+===== 2026-08-27 07:13:09 執行結束 =====
+===== 2026-08-27 07:13:09 開始同步網站 =====
