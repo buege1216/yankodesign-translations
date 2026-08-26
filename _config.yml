@@ -1,0 +1,13 @@
+title: Yanko Design 中文翻譯
+description: 每日翻譯英文工業設計媒體 Yanko Design 的精選文章，繁體中文
+lang: zh-TW
+future: true
+plugins:
+  - jekyll-feed
+permalink: /:categories/:year-:month-:day-:title/
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
