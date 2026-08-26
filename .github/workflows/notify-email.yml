@@ -1,0 +1,96 @@
+name: Notify new articles by email
+
+on:
+  schedule:
+    - cron: "10 0 * * *" # 每天 UTC 00:10 = 台北 08:10，在本機每日翻譯排程(07:10)之後，跟 AxisMag(07:00) 錯開
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Pick next unsent article and build email body
+        id: build
+        run: node .github/scripts/send-daily-email.js build
+
+      - name: Commit parse-failure skip (if any)
+        if: steps.build.outputs.has_new != 'true'
+        run: |
+          if git diff --quiet -- _email_manifest.json; then
+            echo "沒有需要提交的變更"
+            exit 0
+          fi
+          git config user.name "yankodesign-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add _email_manifest.json
+          git commit -m "電子報：略過無法解析的文章"
+          for i in 1 2 3; do
+            git push && break
+            git pull --rebase origin main
+          done
+
+      - name: Wait for GitHub Pages deployment
+        if: steps.build.outputs.has_new == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const sha = context.sha;
+            const timeoutMs = 5 * 60 * 1000;
+            const intervalMs = 10 * 1000;
+            const start = Date.now();
+
+            while (Date.now() - start < timeoutMs) {
+              const { data: deployments } = await github.rest.repos.listDeployments({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                sha,
+                environment: 'github-pages',
+              });
+
+              if (deployments.length > 0) {
+                const { data: statuses } = await github.rest.repos.listDeploymentStatuses({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  deployment_id: deployments[0].id,
+                });
+                if (statuses.some(s => s.state === 'success')) {
+                  core.info('Pages deployment confirmed live for ' + sha);
+                  return;
+                }
+              }
+              await new Promise(r => setTimeout(r, intervalMs));
+            }
+            core.warning('Timed out waiting for Pages deployment, sending email anyway.');
+
+      - name: Send email
+        if: steps.build.outputs.has_new == 'true'
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          username: ${{ secrets.MAIL_USERNAME }}
+          password: ${{ secrets.MAIL_PASSWORD }}
+          subject: ${{ steps.build.outputs.subject }}
+          to: ${{ secrets.MAIL_TO }}
+          from: Yanko Design 翻譯通知 <${{ secrets.MAIL_USERNAME }}>
+          html_body: file://email_body.html
+
+      - name: Mark article as sent
+        if: steps.build.outputs.has_new == 'true'
+        run: |
+          node .github/scripts/send-daily-email.js mark "${{ steps.build.outputs.basename }}"
+          git config user.name "yankodesign-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add _email_manifest.json
+          git commit -m "電子報：已寄送 ${{ steps.build.outputs.basename }}"
+          for i in 1 2 3; do
+            git push && break
+            git pull --rebase origin main
+          done
