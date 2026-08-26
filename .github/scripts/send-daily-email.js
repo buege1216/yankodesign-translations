@@ -32,7 +32,7 @@ function escapeHtml(s) {
   return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 }
 
-// 只需要處理 axismag-daily skill 固定會產生的幾種寫法：粗體、連結、圖片、條列、引言區塊。
+// 只需要處理 yankodesign-daily skill 固定會產生的幾種寫法：粗體、連結、圖片、條列、引言區塊。
 function inline(text) {
   let t = escapeHtml(text);
   t = t.replace(/!\[[^\]]*\]\(([^)]+)\)/g, '<img src="$1" style="width:100%;max-width:600px;height:auto;margin:12px 0;display:block;border-radius:4px;">');
