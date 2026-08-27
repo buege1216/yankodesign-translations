@@ -2,7 +2,7 @@ name: Notify new articles by email
 
 on:
   schedule:
-    - cron: "10 0 * * *" # 每天 UTC 00:10 = 台北 08:10，在本機每日翻譯排程(07:10)之後，跟 AxisMag(07:00) 錯開
+    - cron: "0 21 * * *" # 每天 UTC 21:00 = 台北 05:00（次日），在本機每日翻譯排程(04:25)之後
   workflow_dispatch: {}
 
 permissions:
