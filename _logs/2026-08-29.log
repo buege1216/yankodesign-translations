@@ -1,0 +1,10 @@
+﻿===== 2026-08-29 04:25:01 開始執行 =====
+今天處理完成，共 3 篇文章（都改寫翻譯，非逐句照搬），首頁篩掉了 Deals 分類文章：
+
+1. **哈雷戴維森黑膠唱盤**（Audio, Technology）→ `2026-08-28-harley-davidsons-3299-turntable-is-shaped-like-their-logo.md`，成功取得首圖真實網址，內文插圖只有 data 佔位符已略過。
+2. **繩索摺疊凳**（Furniture, Minimalism）→ `2026-08-28-rope-replaced-every-screw-and-dowel-in-this-77-wooden-folding-stool.md`，同樣只有首圖是真實網址。
+3. **愛馬仕 Arceau Cheval Natté 腕表**（Watches）→ `2026-08-28-hermes-weaves-time-on-arceau-cheval-natte-watch.md`，首圖真實網址取得，內文插圖為佔位符已略過。
+
+三篇網址都已寫進 `_manifest.json` 避免重複抓取。git commit/push 依流程交給外部排程腳本處理，我這邊沒動。
+===== 2026-08-29 04:27:54 執行結束 =====
+===== 2026-08-29 04:27:54 開始同步網站 =====
