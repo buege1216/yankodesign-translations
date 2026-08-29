@@ -1,0 +1,17 @@
+﻿===== 2026-08-30 04:25:01 開始執行 =====
+今天的每日翻譯已完成，摘要如下：
+
+處理了 3 篇文章（皆為 2026-08-29 首頁最新文章，跳過了含 `DEALS` 標籤的導購文）：
+
+1. **Fitbit 讓卡比獸成為你的睡眠追蹤器一直缺少的動力**（Wearables/Gaming）
+   → `_posts/2026-08-29-fitbit-snorlax-sleep-tracker.md`
+2. **Huawei MatePad Air 2026 評測：OLED 升級改變了一切**（Technology）
+   → `_posts/2026-08-29-huawei-matepad-air-2026-review.md`
+3. **Plaud One AI 耳機能記住並整理你的對話內容，讓你專心工作**（Artificial Intelligence）
+   → `_posts/2026-08-29-plaud-one-ai-earbuds.md`
+
+圖片：三篇原文的圖片皆為 lazyload 佔位符（`data:image/svg+xml`），沒有抓到真實圖片網址，所以三篇都省略了 `image` 欄位與內文插圖，未使用假網址充數。三篇也都沒有點名個別設計師（只提到品牌方），所以 `designer` 欄位皆省略。
+
+`_manifest.json` 已更新，加入這 3 篇網址去重。git commit/push 依慣例交給外部排程腳本處理。
+===== 2026-08-30 04:30:29 執行結束 =====
+===== 2026-08-30 04:30:29 開始同步網站 =====
