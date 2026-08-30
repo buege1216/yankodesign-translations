@@ -1,0 +1,23 @@
+﻿===== 2026-08-31 04:25:01 開始執行 =====
+## 完成摘要
+
+這次處理了 3 篇新文章（首頁挑選時已避開含 `DEALS` 標籤的文章）：
+
+1. **Apple TV 4K 9月9日登場：搭載 Gemini 動力 Siri，這次真的能對話了**
+   存於 `_posts/2026-08-30-apple-tv-4k-gemini-siri.md`
+   分類：Artificial Intelligence / Product Design / Television
+   圖片：成功取得首圖真實網址
+
+2. **5款完全不像鋼製家具的鋼製家具設計**
+   存於 `_posts/2026-08-30-5-steel-furniture-designs.md`
+   分類：Furniture / Product Design
+   圖片：文章內圖片全是 lazyload 佔位符（`data:image/svg+xml`），沒有抓到真實網址，故未寫入 image 欄位
+
+3. **Urwerk 打造手工雕刻懷錶，能追蹤時間長達1,000年**
+   存於 `_posts/2026-08-30-urwerk-hand-carved-pocket-watch.md`
+   分類：Luxury / Product Design / Watches
+   圖片：同樣只有佔位符，未寫入 image 欄位
+
+三篇網址都已寫入 `_manifest.json` 避免重複抓取。Git commit/push 依慣例交由外部排程腳本處理，這裡沒有動 git。
+===== 2026-08-31 04:31:15 執行結束 =====
+===== 2026-08-31 04:31:15 開始同步網站 =====
