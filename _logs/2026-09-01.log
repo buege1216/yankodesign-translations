@@ -1,0 +1,15 @@
+﻿===== 2026-09-01 04:25:01 開始執行 =====
+本次每日更新完成，處理了 3 篇文章：
+
+1. **MB&F 外星風桌鐘，寄來 222 個零件要你花 10 小時自己組**（product-design）
+   `_posts/2026-08-31-mbfs-alien-inspired-desk-clock-222-parts.md`，主圖抓取成功。
+
+2. **這棟房子逼你流汗，再把汗水換成的能量拿來供電**（architecture，設計師 Michael Jantzen）
+   `_posts/2026-08-31-house-makes-you-sweat-harvests-energy.md`，主圖抓取成功。
+
+3. **有人自製了一台會吐出照片的數位相機，像真的底片一樣**（technology）
+   `_posts/2026-08-31-digital-camera-ejects-photos-like-film.md`，主圖抓取成功。
+
+三篇都只有首圖是真實網址，內文其他圖片都是 lazyload 佔位符（`data:` 開頭），依規則略過未寫入。首頁其他新文章（例如吸塵器/居家小物/桌遊）多半掛了 `DEALS` 分類，依規則跳過；4 月的 Milan Design Week 舊文也不是「今天新文章」，一併略過未選。`_manifest.json` 已更新加入這 3 篇網址去重。git commit/push 依規則不在此處理。
+===== 2026-09-01 04:28:11 執行結束 =====
+===== 2026-09-01 04:28:11 開始同步網站 =====
