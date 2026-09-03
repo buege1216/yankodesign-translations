@@ -1,0 +1,18 @@
+﻿===== 2026-09-04 04:25:01 開始執行 =====
+本次處理完成，共 3 篇新文章，已排除 3 篇含 Deals 分類的文章：
+
+1. **這張穿鞋椅，才真的該擺在玄關**（原文：A Step Stool That Actually Belongs in Your Entryway）
+   分類：furniture｜設計師：Stephen Chan｜主圖成功取得
+   `_posts/2026-09-03-a-step-stool-that-actually-belongs-in-your-entryway.md`
+
+2. **寶可夢打造全球首座「真人尺寸」精靈球主題飯店**（原文：Pokemon Just Made the World's First Human-Sized Poke Ball Hotel）
+   分類：architecture｜主圖成功取得
+   `_posts/2026-09-03-pokemon-just-made-the-worlds-first-human-sized-poke-ball-hotel.md`
+
+3. **多數健身手錶在教你怎麼生活，Moto Ultra 選擇先聽你說**（原文：Most Fitness Watches Tell You How to Live, the Moto Ultra Listens）
+   分類：technology｜主圖成功取得
+   `_posts/2026-09-03-most-fitness-watches-tell-you-how-to-live-the-moto-ultra-listens.md`
+
+三篇文章除首圖外，內文其餘圖片抓到的都是 lazyload 佔位符（`data:image/svg+xml...`），依規則已略過，未寫入假圖片網址。`_manifest.json` 已同步更新這 3 個網址，避免之後重複抓取。git commit/push 依 skill 說明由外部排程腳本處理，本次未執行。
+===== 2026-09-04 04:28:13 執行結束 =====
+===== 2026-09-04 04:28:13 開始同步網站 =====
