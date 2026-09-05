@@ -1,0 +1,14 @@
+﻿===== 2026-09-06 04:25:01 開始執行 =====
+## 完成摘要
+
+這次處理了 **3 篇**新文章（2026-09-05 發布），已排除同天首頁上所有含 `Deals` 分類的文章，也排除了 09-04 那三篇已在 manifest 中處理過的文章（3D 列印村、咖啡渣藝術、價目牌）：
+
+| 標題（中譯） | 分類 | 圖片 | 檔案 |
+|---|---|---|---|
+| 4,200 平方英尺的房子，如何真正解決三代同堂的難題 | architecture | 有首圖（真實網址） | `2026-09-05-how-a-4200-sq-ft-home-finally-solved-multigenerational-living.md` |
+| 外骨骼一直忽略膝蓋，Halo 沒有 | technology | 有首圖（真實網址） | `2026-09-05-exoskeletons-always-ignored-your-knees-but-halo-doesnt.md` |
+| COZEWARE 終於解決了每一扇打開的窗都會犯的錯 | technology | 有首圖（真實網址） | `2026-09-05-cozeware-finally-solved-the-one-thing-every-open-window.md` |
+
+三篇文章內文圖片都是 lazyload，除了首圖抓到真實 URL 外，其餘全是 `data:image/svg+xml` 佔位符，依規則已捨棄未寫入檔案。`_manifest.json` 已更新這三個網址。git commit/push 依規定不在此執行，交由外部排程處理。
+===== 2026-09-06 04:29:49 執行結束 =====
+===== 2026-09-06 04:29:49 開始同步網站 =====
