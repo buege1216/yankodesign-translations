@@ -1,0 +1,20 @@
+﻿===== 2026-09-08 04:25:01 開始執行 =====
+## 完成摘要
+
+這次處理了 **3 篇**新文章（全部來自 2026-09-07，跳過了含 Deals 分類的文章與已處理過的文章）：
+
+1. **有了 Super Sauna，飯店終於不必再等半年工程才有三溫暖**（建築類）
+   → `_posts/2026-09-07-with-super-sauna-hotels-finally-get-a-sauna-without-the-construction-wait.md`
+   首圖成功取得，內文穿插圖僅有 SVG 佔位符，已略過。
+
+2. **開放式辦公室殺死了獨立辦公桌，這個艙型座位把它找回來了**（家具/辦公類，設計師 Michael Jantzen）
+   → `_posts/2026-09-07-open-plan-offices-killed-the-private-desk-and-this-pod-brings-it-back.md`
+   首圖成功取得，其餘為佔位符已略過。
+
+3. **一座拒絕只是「報時」的時鐘**（產品設計/鐘錶類，設計師 Omer Fatih Sevinctekin / Omora Lusso）
+   → `_posts/2026-09-07-a-clock-that-refuses-to-just-tell-you-the-time.md`
+   首圖成功取得，其餘為佔位符已略過。
+
+`_manifest.json` 已更新，加入這 3 篇網址防止重複處理。首頁上其餘符合日期的文章多屬 Deals 或 IFA 純硬體評測，優先選了分類最多元、非導購的三篇。git commit/push 交由外部排程腳本處理，本次未執行。
+===== 2026-09-08 04:28:22 執行結束 =====
+===== 2026-09-08 04:28:22 開始同步網站 =====
