@@ -1,0 +1,15 @@
+﻿===== 2026-09-09 04:25:01 開始執行 =====
+完成，這次處理了 3 篇文章：
+
+1. **這個會自己走的哈利波特西洋棋盤，在 IFA 2026 上把所有 AI 產品都比下去了**（Product Design）
+   存於 `_posts/2026-09-08-harry-potter-chessboard-stole-the-show-at-ifa-2026.md`，成功取得真實主圖網址。
+
+2. **這隻用 400 多個圓片做成的紙寵物，一摸就會動**（Accessories）
+   存於 `_posts/2026-09-08-paper-pet-made-of-400-circles-moves-when-touched.md`，成功取得真實主圖網址。
+
+3. **這套可折疊的 Cubivan 露營系統，讓你的廂型車擁有廚房、浴室和車頂臥室**（Automotive）
+   存於 `_posts/2026-09-08-cubivan-camping-system-van-kitchen-bathroom-rooftop-bedroom.md`，成功取得真實主圖網址。
+
+三篇文章內文都各自只有首圖是真實圖片網址（`https://...`），其餘內文圖片都是 `data:image/svg+xml` 佔位符，依規則已略過不使用。首頁還有其他 09/08 新文章（Huawei 三折疊機、CO2 冷卻外套、Android 繪圖平板、Xiaomi 折疊機等），因分類重複度高或非本次優先選擇而未處理，並非因為只剩 Deals 文章而跳過——本次沒有觸發「只剩 Deals」的空手情況。`_manifest.json` 已更新，加入這三篇網址避免重複抓取。
+===== 2026-09-09 04:28:53 執行結束 =====
+===== 2026-09-09 04:28:53 開始同步網站 =====
