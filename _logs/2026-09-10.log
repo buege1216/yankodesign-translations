@@ -1,0 +1,22 @@
+﻿===== 2026-09-10 04:25:02 開始執行 =====
+JSON 驗證通過。
+
+## 今日處理摘要
+
+這次共處理 **3 篇**新文章（首頁除這 3 篇外，其餘不是已處理過就是 Deals 導購文，故未選入）：
+
+1. **iPhone Duo 一次終結 Dynamic Island、SIM 卡槽，也讓 iPad Mini 顯得多餘**（Product Design）
+   `_posts/2026-09-09-the-iphone-duo-just-killed-the-dynamic-island.md`
+   有取得首圖真實網址，內文穿插圖都是佔位符已略過。
+
+2. **IKEA 的迷你屋，默默承認你家亂一點也沒關係**（Interiors）
+   `_posts/2026-09-09-ikeas-tiny-houses-quietly-admit-your-messy-home-is-fine.md`
+   有首圖，設計師欄位填了 Christopher Robin Nordström（TokyoBuild）。
+
+3. **Felipe Pantone 的網球場，堅持不讓自己長兩次一樣的臉**（Installations，藝術裝置）
+   `_posts/2026-09-09-felipe-pantones-tennis-court-refuses-to-look-the-same-twice.md`
+   有首圖，設計師欄位填了 Felipe Pantone（文中另有點名 Spok Brillor、Lucas Benarroch/MRKA，寫在內文中）。
+
+`_manifest.json` 已更新加入這 3 篇網址。Git commit/push 依規定不在這裡執行，留給外部排程腳本處理。
+===== 2026-09-10 04:28:22 執行結束 =====
+===== 2026-09-10 04:28:22 開始同步網站 =====
