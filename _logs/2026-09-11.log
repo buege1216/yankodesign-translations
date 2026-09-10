@@ -1,0 +1,22 @@
+﻿===== 2026-09-11 04:25:01 開始執行 =====
+## 完成摘要
+
+這次處理了 **3 篇文章**，全部來自 2026-09-10 首頁最新內容（已排除 Deals 分類與重複網址，優先挑選分類多樣的作品）：
+
+1. **建築** — 《這棟房子把自己拆成三塊，只為了繼續躲在森林裡》
+   `_posts/2026-09-10-this-house-splits-into-three-pieces-so-it-can-stay-hidden-in-its-own-forest.md`
+   設計師：Dinko Uglešić、Ina Vlahović、Marijana Rančić（FORVM arhitektura）；首圖抓取成功。
+
+2. **家具** — 《這張中式椅凳把兩個收納箱藏在座位底下》
+   `_posts/2026-09-10-this-chinese-stool-hides-2-storage-bins-right-under-your-seat.md`
+   設計師：Qingshan；首圖抓取成功。
+
+3. **產品設計/科技** — 《5款設計證明黑膠復興從來不只是為了音樂》
+   `_posts/2026-09-10-5-designs-that-prove-vinyls-comeback-was-never-just-about-the-music.md`
+   點名設計師：Oscar Olsson、Przemysław Wolnicki、Yuri Suzuki、Claudio Ripol；首圖抓取成功。
+
+三篇文章都只抓到首圖為真實網址，內文其他圖片皆為 lazyload 佔位符（`data:image/svg+xml`），已依規則捨棄不用。`_manifest.json` 已加入這三個網址。翻譯過程中發現並修正了一處誤植的西里爾字母打字錯誤。
+
+Git commit/push 依規則不在此處執行，交由外部排程腳本處理。
+===== 2026-09-11 04:31:23 執行結束 =====
+===== 2026-09-11 04:31:23 開始同步網站 =====
