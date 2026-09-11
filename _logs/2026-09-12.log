@@ -1,0 +1,18 @@
+﻿===== 2026-09-12 04:25:01 開始執行 =====
+本次處理完成，共新增 3 篇文章（均已跳過 Deals 分類，優先挑選分類多元的最新文章）：
+
+1. **Audi 全新咖啡機以 TT 跑車美學打造你的晨間咖啡儀式**（Product Design）
+   → `_posts/2026-09-11-audis-new-espresso-machine-brings-tt-inspired-design-to-your-morning-coffee-routine.md`
+   成功取得首圖真實網址。
+
+2. **青少年房間身兼四職，Hasuit 轉角床一次全部搞定**（Furniture）
+   → `_posts/2026-09-11-a-teen-bedroom-has-4-jobs-the-hasuit-corner-bed-handles-all-of-them.md`
+   原文所有圖片皆為 lazyload 佔位符，未取得真實圖片網址，故未寫入 `image` 欄位。
+
+3. **Toyota 2,500 美元 GR KART，讓你擁有一台真正的賽車卻不用煩惱一堆麻煩事**（Automotive）
+   → `_posts/2026-09-11-toyotas-2500-gr-kart-lets-you-own-a-real-racing-machine-without-the-usual-hassle.md`
+   成功取得首圖真實網址。
+
+`_manifest.json` 已更新這 3 篇的網址並驗證 JSON 格式正確。首頁其餘新文章多含 Deals 分類（如省電風扇、5 款小工具導購等）已依規則跳過；git commit/push 依規定不在此處理。
+===== 2026-09-12 04:28:22 執行結束 =====
+===== 2026-09-12 04:28:22 開始同步網站 =====
