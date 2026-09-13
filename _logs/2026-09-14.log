@@ -1,0 +1,22 @@
+﻿===== 2026-09-14 04:25:01 開始執行 =====
+今天處理完成，摘要如下：
+
+**本次處理 3 篇新文章**（首頁 9/13 的 5 篇新文章裡，跳過了 2 篇同質性較高的汽車類，選了分類較多元的 3 篇；沒有 Deals 類文章需要跳過）：
+
+1. **這張椅子證明，230萬美元的超跑和你的客廳其實有許多共通點**（Furniture / Product Design）
+   存於 `_posts/2026-09-13-this-chair-proves-a-2-3m-hypercar-your-living-room-have-more-in-common.md`
+   設計師：Iliya Bridan、Nikita Bridan（Oilstainlab）｜取得首圖真實網址
+
+2. **Escape打造的47英尺玻璃屋，重新定義你對小宅生活的想像**（Architecture / Homes）
+   存於 `_posts/2026-09-13-this-47-foot-glass-house-by-escape-reframes-tiny-living.md`
+   無點名個人設計師（Escape 為公司名）｜取得首圖真實網址
+
+3. **峇里島的這件裝置藝術，終於讓看膩的絕美景色重新變得新鮮**（Installations）
+   存於 `_posts/2026-09-13-the-bali-sculpture-that-finally-makes-overshot-views-feel-new.md`
+   設計師：Vincent Leroy｜取得首圖真實網址
+
+**圖片說明**：三篇文章的內文穿插圖都是 lazyload 的 SVG 佔位符，抓不到真實網址，所以每篇只保留了首圖（真實 https 網址），內文沒有插圖，符合 skill 規則（不使用佔位符充數）。
+
+`_manifest.json` 已更新，加入這 3 篇網址避免重複處理。Git commit/push 依規定交給外部排程腳本處理，這裡沒有執行。
+===== 2026-09-14 04:29:09 執行結束 =====
+===== 2026-09-14 04:29:09 開始同步網站 =====
