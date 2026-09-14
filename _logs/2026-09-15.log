@@ -1,0 +1,18 @@
+﻿===== 2026-09-15 04:25:01 開始執行 =====
+今天處理完成，共 3 篇新文章，全部來自 2026-09-14（避開了含 DEALS 標籤的文章，如廚房工具、鈦金屬杯、ELEGOO 等）：
+
+1. **這盞木質落地燈，堅持不讓你扛重量**（Lighting）
+   `_posts/2026-09-14-a-wooden-floor-lamp-that-refuses-to-weigh-you-down.md`
+   設計師 Christian Borger 的懸吊式木質落地燈。有抓到真實首圖網址。
+
+2. **這些3D列印花瓶，看起來卻像手工編織**（Homes/Interiors）
+   `_posts/2026-09-14-the-3d-printed-vases-that-actually-look-hand-woven.md`
+   波蘭工作室 Wontek 的作品。有抓到真實首圖網址。
+
+3. **鬧鐘不再只是嗡嗡作響，Kodo 捧著一株植物，陪你迎接黎明**（Technology）
+   `_posts/2026-09-14-alarm-clocks-buzz-and-glow-kodo-holds-a-plant-and-greets-the-dawn.md`
+   設計師 Pascal Grangier 的概念鬧鐘。有抓到真實首圖網址。
+
+三篇文章內文圖片除首圖外，其餘都是 lazyload 佔位符（`data:image/svg+xml...`），沒有抓到真實網址，所以內文中未插入額外圖片，只保留 frontmatter 的 `image` 首圖欄位。`_manifest.json` 已更新加入這三篇網址。Git commit/push 依慣例交給外部排程腳本處理。
+===== 2026-09-15 04:28:26 執行結束 =====
+===== 2026-09-15 04:28:26 開始同步網站 =====
