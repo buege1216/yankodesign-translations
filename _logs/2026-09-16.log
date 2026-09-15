@@ -1,0 +1,18 @@
+﻿===== 2026-09-16 04:25:01 開始執行 =====
+今天處理了 3 篇文章：
+
+1. **Mac mini 的造型太完美，全世界都在抄**（product-design）
+   `_posts/2026-09-15-the-mac-mini-form-factor-is-so-perfect-literally-everyone-is-copying-it.md`
+   有取得首圖真實網址；無點名設計師（省略 designer 欄位）。
+
+2. **後院溫室兼客廳：這座溫室白天種菜、晚上待客**（architecture）
+   `_posts/2026-09-15-a-backyard-greenhouse-that-moonlights-as-an-outdoor-living-room.md`
+   有取得首圖真實網址；設計師 Michael Jantzen。
+
+3. **智慧家庭面板不必像科技機器，Fanora 做成了一件工藝品**（technology）
+   `_posts/2026-09-15-smart-home-panels-look-like-tech-fanora-looks-like-fine-craft.md`
+   有取得首圖真實網址；設計師 HDL Automation。
+
+三篇原文內文圖片除首圖外都是 lazyload 佔位符（`data:image/svg+xml...`），依規則未採用，只保留首圖當 `image` 欄位。跳過的文章：首頁其餘新文章多屬 `DEALS` 分類（如耳機、氣炸鍋促銷、居家辦公好物精選等），依規則排除；`IFA 2026` 類文章因非本次優先類別也未選入。三篇網址已寫入 `_manifest.json` 去重紀錄。未執行 git commit/push，交由外部排程處理。
+===== 2026-09-16 04:27:24 執行結束 =====
+===== 2026-09-16 04:27:24 開始同步網站 =====
