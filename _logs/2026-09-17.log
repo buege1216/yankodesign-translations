@@ -1,0 +1,22 @@
+﻿===== 2026-09-17 04:25:01 開始執行 =====
+All frontmatter titles are clean — no stray half-width double quotes inside. All three files and the manifest check out.
+
+## 完成摘要
+
+今天從 Yanko Design 首頁挑了 3 篇 9/16 的新文章（都不是 Deals 類，優先選了不同分類以增加多樣性）：
+
+1. **《終於有人用真正的石頭做了一把「搖滾吉他」，而且真的很好聽》**（Product Design）
+   `_posts/2026-09-16-finally-someone-made-a-rock-guitar-out-of-actual-rock.md`
+   有抓到首圖真實網址；內文其餘圖片都是 lazyload 佔位符，已略過。
+
+2. **《你現在真的可以睡進一顆貨真價實的寶貝球裡》**（Architecture）
+   `_posts/2026-09-16-you-can-actually-sleep-inside-a-real-poke-ball-now.md`
+   有抓到一張真實圖片網址（第 9 張），其餘為佔位符已略過。
+
+3. **《這座時鐘像音樂盒一樣運作，用骰子代替鈴聲報時》**（Watches，設計師：ekaggrat singh kalsi）
+   `_posts/2026-09-16-the-clock-that-works-like-a-music-box-with-dice.md`
+   有抓到首圖真實網址；其餘為佔位符已略過。
+
+首頁上另有一篇 Deals 類文章（7 款日本文具禮物）直接跳過，未計入。三篇網址都已寫入 `_manifest.json`（更新後共 61 筆）。Git commit/push 不在這個 skill 範圍內，交給外部排程腳本處理。
+===== 2026-09-17 04:28:07 執行結束 =====
+===== 2026-09-17 04:28:07 開始同步網站 =====
