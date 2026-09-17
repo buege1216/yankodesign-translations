@@ -1,0 +1,20 @@
+﻿===== 2026-09-18 04:25:01 開始執行 =====
+今天的處理已完成，以下是摘要：
+
+**這次處理了 3 篇新文章**（今天首頁其他 09/17 文章多為 Deals 導購類或跟已抓過的重複，已跳過）：
+
+1. **Holy Moly：平板包裝家具五金界的瑞士刀**（家具設計）
+   `_posts/2026-09-17-holy-moly-is-the-swiss-army-knife-of-flat-pack-furniture-hardware.md`
+   有取得首圖，內文其餘圖片皆為 lazyload 佔位符，已略過。
+
+2. **這棟 400 平方英尺的小屋，把雙水槽浴室、三折玻璃門和全套廚房通通塞了進去**（建築）
+   `_posts/2026-09-17-this-tiny-home-packs-a-double-vanity-trifold-glass-doors-a-full-kitchen-into-400-square-feet.md`
+   有取得首圖，其餘圖片同樣是佔位符已略過。
+
+3. **Snap 的 SPECS 獨立運算 AR 眼鏡，想用更輕巧的體積打敗 VR 頭盔**（科技）
+   `_posts/2026-09-17-specs-standalone-ar-glasses-could-undercut-vr-headsets-sans-all-the-bulk.md`
+   有取得首圖，其餘圖片同樣是佔位符已略過。
+
+三篇網址都已加入 `_manifest.json` 並驗證 JSON 格式正確。首頁上另外看到的「Pikachu咖啡杯」「Muppet造型電腦」「電源磚 Trozk T3」「E-ink小工具」「Rimowa行李箱」這幾篇也是新的、非 Deals 類，因為要控制在 2~3 篇這次先跳過，明天會自動再抓。git commit/push 不在這個 skill 範圍內，交給排程腳本處理。
+===== 2026-09-18 04:28:26 執行結束 =====
+===== 2026-09-18 04:28:26 開始同步網站 =====
