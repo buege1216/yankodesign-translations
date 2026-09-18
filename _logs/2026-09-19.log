@@ -1,0 +1,15 @@
+﻿===== 2026-09-19 04:25:01 開始執行 =====
+今天處理了 3 篇文章，都成功取得主圖，沒有跳過 Deals 的情況（首頁本身有不少 Deals 類，直接排除）：
+
+1. **精緻絕美的 LEGO 書隅：一輛蒸汽火車直接衝破皚皚雪景書頁**（Product Design, Toys）
+   `_posts/2026-09-18-gorgeous-lego-book-nook-has-a-steam-train-blasting-straight-through-its-snowy-pages.md`
+
+2. **Camp Snap 110D 復刻 1973 年的模樣，依然故意不裝螢幕**（Cameras, Technology）
+   `_posts/2026-09-18-camp-snaps-110d-looks-like-1973-and-still-skips-the-screen-on-purpose.md`
+
+3. **這輛氫燃料重機概念車，復活了被 BMW 塵封 90 年的構想**（Automotive/Concept Motorcycles）
+   `_posts/2026-09-17-this-hydrogen-motorcycle-concept-revives-a-90-year-old-bmw-idea.md`
+
+`_manifest.json` 已更新這三篇網址。git commit/push 依規定不在此處理，交給外部排程腳本。
+===== 2026-09-19 04:29:01 執行結束 =====
+===== 2026-09-19 04:29:01 開始同步網站 =====
