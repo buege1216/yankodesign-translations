@@ -1,0 +1,18 @@
+﻿===== 2026-09-20 04:25:02 開始執行 =====
+今天處理了 3 篇文章，全部來自 09/19 首頁最新一批（同一天的 4 篇非 Deals 文章中，選了分類最多元的 3 篇；剩下 1 篇「The Wooden Box That Refuses to Let Your Phone Win」和另 2 篇 Deals 文章跳過留待下次）：
+
+1. **24 呎迷你屋：雙閣樓、洗碗機，還有一間像樣的家庭辦公室**（建築類）
+   `_posts/2026-09-19-a-24-foot-tiny-home-with-two-lofts-a-dishwasher-and-a-real-home-office.md`
+   有主圖
+
+2. **L'Objet 最好的餐具系列，其實都是圍繞著一枚貝殼打造的**（餐具類）
+   `_posts/2026-09-19-lobjet-secretly-built-its-best-tableware-around-a-single-shell.md`
+   有主圖
+
+3. **MATE：像便利貼一樣，寫字的同時自動設好鬧鐘**（概念設計類）
+   `_posts/2026-09-19-mate-works-like-a-sticky-note-that-sets-its-own-alarm-when-you-write.md`
+   有主圖
+
+三篇都只抓到首圖是真實網址，內文圖片抓到的都是 lazyload 佔位符（`data:image/svg+xml...`），所以內文沒有插圖。`_manifest.json` 已更新加入這三篇網址。git commit/push 依流程交給外部排程腳本處理。
+===== 2026-09-20 04:28:49 執行結束 =====
+===== 2026-09-20 04:28:49 開始同步網站 =====
