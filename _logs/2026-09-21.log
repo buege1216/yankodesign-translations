@@ -1,0 +1,20 @@
+﻿===== 2026-09-21 04:25:02 開始執行 =====
+## 完成摘要
+
+今天首頁最新一批（09/20）文章都不是 Deals 類，順利選出 3 篇分類多樣的文章：
+
+1. **《這間峇里島瑜伽教室，堅持不裝冷氣》**（Architecture）
+   `_posts/2026-09-20-the-bali-yoga-studio-quietly-refusing-to-use-air-conditioning.md`
+   設計者：Pablo Luna Studio，成功取得首圖真實網址。
+
+2. **《這台加濕器不用人工香氛，它直接在裡面種花》**（Interiors）
+   `_posts/2026-09-20-the-humidifier-that-refuses-to-use-synthetic-scent.md`
+   設計師：Yong Zhang，成功取得首圖真實網址。
+
+3. **《VAIO 睽違十年重出江湖的多重翻轉筆電，賣得一點也不便宜》**（Product Design）
+   `_posts/2026-09-20-vaios-multi-flip-laptop-is-back-after-a-decade.md`
+   成功取得首圖真實網址。
+
+三篇文章都只抓到首圖，內文其餘圖片標籤是 lazyload 佔位符（`data:image/svg+xml`），沒有真實網址可用，因此內文未插入額外圖片。三個網址都已寫入 `_manifest.json`。git commit/push 依 skill 說明由外部排程腳本處理，這裡不執行。
+===== 2026-09-21 04:30:13 執行結束 =====
+===== 2026-09-21 04:30:13 開始同步網站 =====
