@@ -1,0 +1,12 @@
+﻿===== 2026-09-22 04:25:01 開始執行 =====
+## 摘要
+
+今天處理了 3 篇 09/21 新文章（首頁 11 篇新文章中，1 篇因分類含 DEALS 被排除）：
+
+1. **Nook Stack：身兼書架的落地燈**（Furniture/Lighting）→ `_posts/2026-09-21-nook-stack-is-the-floor-lamp-that-moonlights-as-a-bookshelf.md`，設計師 Joel Stanly，成功取得真實首圖網址。
+2. **這台唱片機省略了黑膠，改播放落下的水**（Audio/Technology）→ `_posts/2026-09-21-the-record-player-that-skips-the-vinyl-and-plays-falling-water.md`，設計師 FayYin Li，成功取得真實首圖網址。
+3. **延長線本來就活在地板上，Pedestal 不這麼想**（Accessories/Office）→ `_posts/2026-09-21-power-strips-have-always-been-floor-objects-pedestal-disagrees.md`，設計師 Pedestal，成功取得真實首圖網址。
+
+三篇文章的內文插圖全是 lazyload 的 `data:` SVG 佔位符（未抓到真實網址），所以正文中只用了首圖，沒有插入內文圖片。三篇網址已加入 `_manifest.json`。git commit/push 依慣例交給外部排程腳本處理，我這邊沒有動作。
+===== 2026-09-22 04:27:55 執行結束 =====
+===== 2026-09-22 04:27:55 開始同步網站 =====
