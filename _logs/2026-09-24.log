@@ -1,0 +1,16 @@
+﻿===== 2026-09-24 04:25:01 開始執行 =====
+## 完成摘要
+
+這次處理了 **3 篇**文章（09/23 首頁新文章，已排除 2 篇含 DEALS 分類的導購文），優先挑選了三個不同分類以增加多樣性：
+
+| 標題 | 分類 | 檔案 | 圖片 |
+|---|---|---|---|
+| 蘋果的隱藏音樂廳藏身倫敦，僅能容納 600 位樂迷 | architecture, music | `2026-09-23-apples-hidden-concert-hall-fits-only-600-fans-in-london.md` | ✅ 取得首圖真實網址 |
+| 三星 Galaxy Z Fold8 在這 5 件事上比 Apple iPhone Duo 做得更好 | editorial, phones, product-design | `2026-09-23-5-things-galaxy-z-fold8-better-than-iphone-duo.md` | ✅ 取得首圖真實網址 |
+| Speediance 打造能像教練一樣讀懂你身體的家用健身房 | artificial-intelligence, sports, technology | `2026-09-23-speediance-built-the-home-gym-that-learns-your-body-like-a-coach-would.md` | ✅ 取得首圖真實網址 |
+
+三篇的內文穿插圖片全都只抓到 `data:image/svg+xml` 佔位符（lazyload 尚未觸發），照 skill 規則沒有採用，只保留每篇的頂部主圖真實網址。跳過的 2 篇 DEALS 文章：「27-Inch Japanese Shoehorn」與「5 Best Coffee Gadgets」。
+
+`_manifest.json` 已更新，加入這 3 篇網址避免之後重複抓取。git commit/push 依規則不在這裡執行，交給外部排程腳本處理。
+===== 2026-09-24 04:29:33 執行結束 =====
+===== 2026-09-24 04:29:33 開始同步網站 =====
