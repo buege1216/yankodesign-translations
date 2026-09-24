@@ -1,0 +1,10 @@
+﻿===== 2026-09-25 04:25:01 開始執行 =====
+今天處理了 3 篇文章，分類特意挑不同類別增加多樣性：
+
+1. **《無限樹林》鏡面鋼涼亭**（建築｜常昊工作室）— `2026-09-24-this-mirrored-steel-pavilion-multiplies-one-tree-into-endless-reflections.md`，成功取得首圖真實網址。
+2. **MSCHF 把兩台 Lexus 扭成超現實雕塑**（汽車/藝術｜MSCHF）— `2026-09-24-mschf-warps-two-lexus-cars-into-surreal-sculptures.md`，成功取得首圖真實網址。
+3. **Mark II 智慧書籤**（科技｜設計師 Eason Tang）— `2026-09-24-the-mark-ii-turns-a-bookmark-into-a-second-memory.md`，這篇全文只抓到 lazyload 佔位符（`data:image/svg+xml...`），沒有真實圖片網址，所以這篇沒有配圖，`image` 欄位已省略。
+
+首頁篩選時跳過了含 `DEALS` 分類的文章（5 Pens and Notebooks、Gennai Pen SL01、27-Inch Japanese Shoehorn、Olight Oclip 2 Ultra），以及已在 manifest 裡的三篇（Apple's Hidden Concert Hall、Samsung Galaxy Z Fold8、Speediance）。`_manifest.json` 已同步更新這三篇新網址。
+===== 2026-09-25 04:27:54 執行結束 =====
+===== 2026-09-25 04:27:54 開始同步網站 =====
