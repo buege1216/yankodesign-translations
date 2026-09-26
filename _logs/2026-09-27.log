@@ -1,0 +1,16 @@
+﻿===== 2026-09-27 04:25:01 開始執行 =====
+本次處理完成，摘要如下：
+
+今天首頁最新文章都集中在 09/26（更早的都已在 manifest 裡），扣掉本來就已處理過的、以及分類含 Deals 的文章後，剩下三篇非 Deals 的最新文章，分別存為：
+
+1. **這間 400 平方英尺的 A 字形小屋，把大床、上下舖房與完整衛浴全塞進小小佔地裡**（原文：*This 400-Square-Foot A-Frame Cabin Packs a King Bed, Bunk Room, & Full Bath Into One Tiny Footprint*，分類 Tiny Homes）→ `_posts/2026-09-26-this-400-square-foot-a-frame-cabin.md`，成功取得首圖真實網址。
+
+2. **Cricut 的新機器，真的能幾分鐘內做出客製化貼紙**（原文：*Cricut's New Machine Actually Makes Custom Stickers in Minutes*，分類 Printer / Sticker）→ `_posts/2026-09-26-cricuts-new-machine-makes-custom-stickers-in-minutes.md`，成功取得首圖真實網址。
+
+3. **4 款讓人出門絕對會帶著走的鑰匙圈相機**（原文：*4 Keychain Cameras Nobody Will Leave the House Without*，分類 Cameras）→ `_posts/2026-09-26-4-keychain-cameras-nobody-will-leave-the-house-without.md`，成功取得首圖真實網址。
+
+三篇文章內文穿插的其他圖片都只抓到 `data:image/svg+xml` 佔位符，依規定已略過、只保留首圖。三篇均未點名個別設計師（都是品牌／公司名，如 Zook Cabins、Cricut、Yashica），故 frontmatter 省略 `designer` 欄位。`_manifest.json` 已更新加入這三個網址。
+
+未跳過任何 Deals 文章去湊數——本次剛好首頁最新的三篇都非 Deals 類。git commit/push 依慣例交給外部排程腳本處理。
+===== 2026-09-27 04:28:37 執行結束 =====
+===== 2026-09-27 04:28:37 開始同步網站 =====
